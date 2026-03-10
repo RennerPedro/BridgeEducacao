@@ -1,27 +1,35 @@
-# Brigde Education
+# Bridge Education
 
-## Ideia💡:
-  Uma plataforma online que oferece um ambiente de aprendizado extra e intensivo para alunos do ensino fundamental, focada na promoção da educação de qualidade, alinhada com um dos Objetivos de Educação de Qualidade (ODS) da ONU.
+An online learning platform designed to connect middle school students with 
+career exploration content, aligned with the UN Sustainable Development 
+Goal #4 (Quality Education).
 
-## Problema🌪️: 
-  Muitos alunos do ensino fundamental não têm acesso a recursos educacionais complementares que os ajudem a explorar seus interesses e prepará-los para futuras carreiras. Além disso, as feiras de profissões     presenciais podem ser limitadas em alcance e motivação.
+## The Problem
 
-## Nicho👦:
-  Alunos do ensino fundamental que buscam aprender mais sobre diferentes carreiras e áreas de estudo, bem como alunos universitários que desejam ganhar experiência prática e criar um portfólio relevante para o mercado de trabalho.
+Many students lack access to supplementary educational resources that help 
+them explore career paths early. Traditional career fairs are limited in 
+reach and engagement.
 
-## Proposta de valor🎁: 
-  Nossa plataforma oferece duas trilhas de aprendizado - uma gratuita e outra PRO. Na trilha gratuita, os alunos têm acesso a conteúdos de valor sobre diversos cursos e áreas, ajudando-os a explorar suas paixões e interesses. Na trilha PRO, os alunos universitários têm a oportunidade de criar conteúdos exclusivos relacionados ao seu curso, recebendo compensação financeira ou descontos em suas mensalidades. Além disso, a plataforma oferece recursos adicionais, como aulas focadas no curso, mentoria e conteúdos extras sobre tecnologia, preparando os alunos para o mercado de trabalho e abrindo novas oportunidades de crescimento e desenvolvimento profissional.
+## Solution
 
+Bridge Education offers two learning tracks:
+- **Free tier** — curated content across different careers and fields of study
+- **Pro tier** — university students create exclusive content related to their 
+major, earning compensation or tuition discounts in return
 
-### Setup projeto - código 📢
+## Tech Stack
 
-O projeto foi montando com uma estrutura monorepo com o turborepo https://turbo.build/repo. A estrutura é separada em frontend com Next.js e no backend Node.js.
+- **Frontend** — Next.js, TypeScript, CSS
+- **Backend** — Node.js
+- **Monorepo** — Turborepo
 
-- Para instalar as dependências basta rodar no diretório raiz `npm install` que ele irá instalar as dependências nas duas aplicações.
+## Getting Started
 
-- Para rodar as aplicações basta rodar no diretório raiz `npm run dev` ele irá inicializar as duas aplicações
+Clone the repository and install dependencies from the root:
+```bash
+npm install
+npm run dev
+```
 
-- back port (3333)
-- front port (3000)
-
-
+- Frontend runs on port **3000**
+- Backend runs on port **3333**
